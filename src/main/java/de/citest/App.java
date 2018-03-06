@@ -5,8 +5,12 @@ package de.citest;
  */
 public class App 
 {
-    public static void main( String[] args )
+
+    private static final String HELLOWORLD = "Hello World!";
+
+    public String helloWorld( )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( HELLOWORLD );
+        return HELLOWORLD;
     }
 }

@@ -33,7 +33,9 @@ public class AppTest
      */
     public void testApp()
     {
-        String[] strings = {};
-        App.main(strings);
+        String returnValue  = (new App()).helloWorld();
+
+        assertEquals("Hello World!",returnValue);
+
     }
 }
