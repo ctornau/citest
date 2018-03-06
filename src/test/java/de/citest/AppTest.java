@@ -31,7 +31,7 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
+    public void testAppWithAssert()
     {
         String returnValue  = (new App()).helloWorld();
 
