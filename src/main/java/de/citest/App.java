@@ -10,7 +10,7 @@ public class App
 
     public String helloWorld( )
     {
-        System.out.println( HELLOWORLD );
+        System.out.println(HELLOWORLD);
         return HELLOWORLD;
     }
 }
